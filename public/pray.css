@@ -1,0 +1,53 @@
+.container{
+    height: fit-content;
+    padding: 20px;
+    width: 95%;
+}
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image img{
+    width: 45%;
+}
+.left{
+    padding-top: 5%;
+    text-align: center;
+    width: 75%;
+}
+.right {
+    width: 25%;
+}
+.insence{
+    width: 12% !important;
+    position: absolute;
+    margin-left: 11%;
+    z-index: -1;
+    animation: pray 5s;
+    display: none;
+}
+@keyframes pray{
+    0% {margin-top: -150px; opacity: 0.1;}
+    90% {margin-top: -20px; opacity: 1;}
+    100% {margin-top: 0px; opacity: 1;}
+}
+.body{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+}
+.btn-standard{
+    padding: 10px 20px 10px 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+    border: 2px black solid;
+    
+}
+.btn-standard:hover{
+    border: 2px green solid;
+}
+.content-pray{
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+
